@@ -50,7 +50,6 @@ GET /<url_id>/status
 ```python
 [
     {
-        "url_id": "<text-id>",
         "original_url": "URL for shorten"
     },
     ...
@@ -62,7 +61,7 @@ GET /<url_id>/status
 [
     {
         "url_id": "<text-id>",
-         "short_url": "http://...",
+        "short_url": "https://...",
     },
     ...
 ]
@@ -77,8 +76,8 @@ GET /<url_id>/status
 [
     {
         "short_id": "<text-id>",
-        "short_url": "http://...",
-        "original_url": "http://...",
+        "short_url": "https://...",
+        "original_url": "https://...",
         "type": "<public|private>"
     },
     ...
